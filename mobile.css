@@ -1,0 +1,27 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar .logo{
+    justify-self: center;
+}
+#navbar ul li a{
+    padding: 0.4rem;
+}
+/* home */
+#home img {
+    display: none;
+}
+#home{
+    height: auto;
+    width: auto;
+    padding-bottom: 15px;
+}
+/* about */
+
+#about .row >*:first-child{
+    width: fit-content;
+}
